@@ -1,0 +1,45 @@
+.back{
+    background-image: url(./assets/imagenes/sunny-day.jpg);
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gato{
+    background-image: url(./assets/imagenes/kitten-large.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 800px;
+    height: 400px;
+}
+
+
+    @media(max-width: 900px){  
+        .back{
+            background-image: url(./assets/imagenes/dawn.png);
+            width: 130%;
+            height: 128vh;
+        } 
+        .gato{
+            background-image: url(./assets/imagenes/kitten-medium.png);
+        }
+}
+
+@media(max-width: 600px){
+    .back{
+      background-image: url(./assets/imagenes/night.jpg);
+      width: 200%;
+      height: 193vh;
+    }
+    .gato{
+      background-image: url(./assets/imagenes/kitten-small.png);
+    }
+  }
+  
+  
